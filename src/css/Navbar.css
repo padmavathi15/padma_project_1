@@ -1,0 +1,179 @@
+/* Custom styling for navbar */
+.custom-navbar {
+  background-color: #343a40; /* Dark background for navbar */
+  padding: 10px 20px; /* Spacing for navbar */
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.custom-search-bar {
+  border-radius: 25px; /* Rounded corners for search bar */
+}
+
+.custom-btn {
+  background-color: #ff4d4d; /* Red background for logout button */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.custom-btn:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+}
+
+.nav-link {
+  color: white;
+  padding: 0;
+  margin-right: 15px;
+}
+
+.nav-link:hover {
+  color: #f8f9fa;
+}
+
+.teacher-info {
+  position: absolute;
+  top: 60px; /* Place below the image */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  pointer-events: none; /* Prevent mouse interactions with hidden info */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.teacher-info.show-info {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%);
+}
+
+.teacher-text {
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.teacher-id {
+  font-weight: bold;
+  color: #ffcc00; /* Gold color for ID */
+}
+
+.teacher-name {
+  display: block;
+  font-weight: bold;
+  color: #66ff66; /* Light green color for Name */
+  margin-top: 4px;
+}
+
+/* Notification icon size */
+.FaBell {
+  width: 30px;
+  height: 30px;
+}
+
+/* Teacher image hover effect */
+.rounded-circle:hover {
+  cursor: pointer;
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Flexbox settings for aligning content */
+.d-flex.align-items-center {
+  display: flex;
+  align-items: center;
+}
+/* Custom styling for search results */
+.search-results {
+  position: absolute;
+  top: 70px; /* Adjust based on navbar height */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  max-height: 300px;
+  overflow-y: auto;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+.search-item {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.search-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Custom search bar */
+.custom-search-bar {
+  border-radius: 25px; /* Rounded corners for search bar */
+  padding-left: 15px;
+}
+
+.custom-btn {
+  background-color: #ff4d4d; /* Red background for logout button */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.custom-btn:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+}
+.custom-navbar {
+  padding: 10px;
+}
+
+.notifications-dropdown {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-height: 300px; /* Optional: Set max height for scrolling */
+  overflow-y: auto;
+}
+
+.notification-item {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.notification-item:hover {
+  background-color: #f8f9fa;
+}
+
+.notification-item.bg-light {
+  font-weight: bold;
+}
+
+.teacher-info {
+  width: 200px;
+  top: 60px;
+  right: 0;
+  z-index: 1000;
+}
+
+.custom-btn {
+  background-color: #f04e30;
+  color: white;
+}
+
+.custom-btn:hover {
+  background-color: #d44127;
+}
